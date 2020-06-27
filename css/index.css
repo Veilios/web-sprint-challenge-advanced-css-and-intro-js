@@ -154,6 +154,13 @@ button:hover{
         font-size: 1.8rem;
     }
 
+    button {
+        font-size: 1.4rem;
+        border: 1px;
+        border-radius: 3px;
+        box-shadow: 1px #626262;
+        width: 23%;
+    }
     
     .title-container div {
         height: 70vh;
@@ -176,7 +183,6 @@ button:hover{
 
     .artist {
         width: 100%;
-        border: 1px solid black;
         margin-bottom: 4rem;
         display: flex;
         flex-direction: column;
@@ -190,6 +196,5 @@ button:hover{
 
     .bio {
         width: 70%;
-        border: 1px solid black;
     }
 }
