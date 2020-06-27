@@ -136,17 +136,24 @@ button:hover{
 }
 
 @media(max-width: 500px) {
-    body {
+    h1 {
+        font-size: 4.5rem;
     }
 
-    header {
-        border: 1px solid black;
-    }
 
     nav{
         width: 50%;
         padding: 0rem 2rem;
     }
+
+    nav span {
+        border-left: 2px solid #626262;
+    }
+
+    a {
+        font-size: 1.8rem;
+    }
+
     
     .title-container div {
         height: 70vh;
@@ -161,25 +168,28 @@ button:hover{
     }
 
     .artists-container {
-        border: 1px solid black;
         flex-direction: column;
         align-items: center;
         width: 100%;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .artist {
-        width: 75%;
+        width: 100%;
         border: 1px solid black;
         margin-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .artist img {
-        width: 80%;
+        width: 65%;
         height: 30%;
     }
 
     .bio {
-        width: 90%;
+        width: 70%;
+        border: 1px solid black;
     }
 }
